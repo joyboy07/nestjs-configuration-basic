@@ -14,7 +14,7 @@ $ npm install
 ## Configuracion
 
 ```bash
-# modificamos json
+# modificamos json para los diferentes configuraciones
 
 "start:dev": "cross-env NODE_ENV=development nest start --watch",
 "start:debug": "cross-env NODE_ENV=debug nest start --debug --watch",
@@ -22,20 +22,8 @@ $ npm install
 ```
 
 ```bash
-# modificamos json
-  cremos los env
-```
-
-## Ejecutar la aplicación
-
-```bash
-# watch developer
-$ yarn run start:dev
-```
-
-```bash
-# watch production
-$ yarn run start:dev
+# env
+  creamos los diferentes  env, env.development y env.production
 ```
 
 ## Estrutura del env
@@ -50,6 +38,20 @@ PASSWORD_DB=#
 PORT_APLICATION=#
 SYNCHRONIZE=#
 ```
+
+## Ejecutar la aplicación
+
+```bash
+# watch developer
+$ yarn run start:dev
+```
+
+```bash
+# watch production
+$ yarn run start:dev
+```
+
+
 
 ## Comandos de apoyo
 
