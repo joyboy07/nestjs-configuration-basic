@@ -39,7 +39,7 @@ async function bootstrap() {
       docExpansion: 'none',
     }
   });
-  await app.listen(AppModule.port);
+  await app.listen(AppModule.port,'0.0.0.0');
   logger.debug(`Server running on http://localhost:${AppModule.port}/api`)
   logger.debug(`Swagger UI running on http://localhost:${AppModule.port}/api/docs`)
 }

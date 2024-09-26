@@ -1,7 +1,7 @@
 module.exports = {
 	apps: [
 	  {
-		name: 'nombre-de-tu-app',
+		name: 'login',
 		script: 'dist/main.js',
 		env: {
 		  NODE_ENV: 'development',  // Configuración para desarrollo

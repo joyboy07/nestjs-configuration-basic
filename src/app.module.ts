@@ -1,7 +1,6 @@
 import { Module } from '@nestjs/common';
 import { DatabaseModule } from './database/database.module';
 import { ConfigModule, ConfigService } from '@nestjs/config';
-import { DataSource } from 'typeorm';
 import { UsuarioModule } from './service/usuario/usuario.module';
 import { BootstrapService } from './bootstrap/bootstrap.service';
 

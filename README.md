@@ -52,6 +52,12 @@ $ yarn run start:dev
 ```
 
 
+```bash
+# codigo para produccion
+$ pm2 start ecosystem.config.js --env production
+```
+
+
 
 ## Comandos de apoyo
 
