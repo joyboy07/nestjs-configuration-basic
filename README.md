@@ -8,7 +8,22 @@
 
 ```bash
 # Instalamos los paquetes node_moudles
-$ yarn install
+$ npm install
+```
+
+## Configuracion
+
+```bash
+# modificamos json
+
+"start:dev": "cross-env NODE_ENV=development nest start --watch",
+"start:debug": "cross-env NODE_ENV=debug nest start --debug --watch",
+"start:prod": "cross-env NODE_ENV=production node dist/main",
+```
+
+```bash
+# modificamos json
+  cremos los env
 ```
 
 ## Ejecutar la aplicación
@@ -53,6 +68,7 @@ $ nest g resource api/[nombre del modulo]
 ## Bibliotecas
 
 - Typeorm https://docs.nestjs.com/techniques/database
+- cross-env https://www.npmjs.com/package/cross-env
 
 
 
